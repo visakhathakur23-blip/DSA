@@ -8,25 +8,25 @@
 # answer[i] == i (as a string) if none of the above conditions are true.
 
 
-# class Solution(object):
-#     def fizzBuzz(self, n):
+class Solution(object):
+    def fizzBuzz(self, n):
         
-#         ans=[]
-#         for i in range (1,n+1):
-#             if i%3==0 and i%5==0:
-#                 ans.append("FizzBuzz")   
-#             elif i%3==0:
-#                 ans.append("Fizz") 
-#             elif i%5==0:
-#                 ans.append("Buzz") 
-#             else:
-#                 ans.append(str(i))
-#         return ans    
+        ans=[]
+        for i in range (1,n+1):
+            if i%3==0 and i%5==0:
+                ans.append("FizzBuzz")   
+            elif i%3==0:
+                ans.append("Fizz") 
+            elif i%5==0:
+                ans.append("Buzz") 
+            else:
+                ans.append(str(i))
+        return ans    
 
 
-# n=int(input("Enter the value of n :"))
-# obj=Solution()
-# result=obj.fizzBuzz(n)
+n=int(input("Enter the value of n :"))
+obj=Solution()
+result=obj.fizzBuzz(n)
 # print (result)
 
 
