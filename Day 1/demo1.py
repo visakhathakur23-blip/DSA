@@ -1,4 +1,4 @@
-### LEET CODE
+## LEET CODE
 
 # 412 Given an integer n, return a string array answer (1-indexed) where:
 
