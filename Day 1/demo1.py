@@ -27,7 +27,7 @@ class Solution(object):
 n=int(input("Enter the value of n :"))
 obj=Solution()
 result=obj.fizzBuzz(n)
-# print (result)
+print (result)
 
 
 
