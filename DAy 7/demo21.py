@@ -21,7 +21,7 @@ class Solution(object):
 
 
 nums=list(map(int,input("Enter number : ").split()))
-nums.sort() 
+nums.sort()
 obj=Solution()
 result=obj.removedub(nums)
 print(result)
