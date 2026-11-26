@@ -22,4 +22,4 @@ class Solution(object):
 nums=list(map(int,input("Enter array :").split()))
 obj=Solution()
 result=obj.max(nums)
-print(result)
+print(result    )
